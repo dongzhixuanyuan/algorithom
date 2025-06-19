@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0880D4122E03BD31005E1BEF /* 递归.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880D4112E03BD2A005E1BEF /* 递归.swift */; };
+		0880D4142E03C24E005E1BEF /* 动态规划.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0880D4132E03C24E005E1BEF /* 动态规划.swift */; };
+		A02EA626290BDB540091735A /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02EA625290BDB540091735A /* UnionFind.swift */; };
 		A04FF6212900EBA8006C57ED /* SwiftLanguageImple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FF6202900EBA8006C57ED /* SwiftLanguageImple.swift */; };
+		A04FF6282900EF7C006C57ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FF6272900EF7C006C57ED /* main.swift */; };
+		A04FF6302900EFE3006C57ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FF62F2900EFE3006C57ED /* main.swift */; };
+		A04FF6352900F030006C57ED /* MyKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FF6342900F030006C57ED /* MyKthLargest.swift */; };
+		A04FF6372900F719006C57ED /* SelectionSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FF6362900F719006C57ED /* SelectionSamples.swift */; };
+		A08684BB2946FE46001D07AC /* RabinKarp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08684BA2946FE46001D07AC /* RabinKarp.swift */; };
+		A08684BD29486CC1001D07AC /* LongCommonSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08684BC29486CC1001D07AC /* LongCommonSequence.swift */; };
+		A08684BF29487832001D07AC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08684BE29487832001D07AC /* Extension.swift */; };
+		A0ABC4CB292DC584001B6DE2 /* KMPStringSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABC4CA292DC584001B6DE2 /* KMPStringSearch.swift */; };
+		A0ED65422918E76F00B737C1 /* Brute-Fore-String-Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED65412918E76F00B737C1 /* Brute-Fore-String-Searching.swift */; };
+		A0ED65442918F45A00B737C1 /* Boyer-Moore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED65432918F45A00B737C1 /* Boyer-Moore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +33,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A04FF62B2900EFE2006C57ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0880D4112E03BD2A005E1BEF /* 递归.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "递归.swift"; sourceTree = "<group>"; };
+		0880D4132E03C24E005E1BEF /* 动态规划.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态规划.swift"; sourceTree = "<group>"; };
+		A02EA625290BDB540091735A /* UnionFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
 		A04FF61D2900EBA8006C57ED /* libSwiftLanguageImple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftLanguageImple.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04FF6202900EBA8006C57ED /* SwiftLanguageImple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguageImple.swift; sourceTree = "<group>"; };
+		A04FF6272900EF7C006C57ED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A04FF62D2900EFE2006C57ED /* LanguageImple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LanguageImple; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04FF62F2900EFE3006C57ED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A04FF6342900F030006C57ED /* MyKthLargest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKthLargest.swift; sourceTree = "<group>"; };
+		A04FF6362900F719006C57ED /* SelectionSamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSamples.swift; sourceTree = "<group>"; };
+		A08684BA2946FE46001D07AC /* RabinKarp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabinKarp.swift; sourceTree = "<group>"; };
+		A08684BC29486CC1001D07AC /* LongCommonSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongCommonSequence.swift; sourceTree = "<group>"; };
+		A08684BE29487832001D07AC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\bExtension.swift"; sourceTree = "<group>"; };
+		A0ABC4CA292DC584001B6DE2 /* KMPStringSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMPStringSearch.swift; sourceTree = "<group>"; };
+		A0ED65412918E76F00B737C1 /* Brute-Fore-String-Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Brute-Fore-String-Searching.swift"; sourceTree = "<group>"; };
+		A0ED65432918F45A00B737C1 /* Boyer-Moore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boyer-Moore.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A04FF61A2900EBA8006C57ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04FF62A2900EFE2006C57ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A04FF61F2900EBA8006C57ED /* SwiftLanguageImple */,
+				A04FF62E2900EFE3006C57ED /* LanguageImple */,
 				A04FF61E2900EBA8006C57ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				A04FF61D2900EBA8006C57ED /* libSwiftLanguageImple.a */,
+				A04FF62D2900EFE2006C57ED /* LanguageImple */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +103,28 @@
 			isa = PBXGroup;
 			children = (
 				A04FF6202900EBA8006C57ED /* SwiftLanguageImple.swift */,
+				A04FF6272900EF7C006C57ED /* main.swift */,
 			);
 			path = SwiftLanguageImple;
+			sourceTree = "<group>";
+		};
+		A04FF62E2900EFE3006C57ED /* LanguageImple */ = {
+			isa = PBXGroup;
+			children = (
+				0880D4112E03BD2A005E1BEF /* 递归.swift */,
+				A04FF6362900F719006C57ED /* SelectionSamples.swift */,
+				A04FF6342900F030006C57ED /* MyKthLargest.swift */,
+				A04FF62F2900EFE3006C57ED /* main.swift */,
+				A02EA625290BDB540091735A /* UnionFind.swift */,
+				A0ED65412918E76F00B737C1 /* Brute-Fore-String-Searching.swift */,
+				A0ED65432918F45A00B737C1 /* Boyer-Moore.swift */,
+				A0ABC4CA292DC584001B6DE2 /* KMPStringSearch.swift */,
+				A08684BA2946FE46001D07AC /* RabinKarp.swift */,
+				A08684BC29486CC1001D07AC /* LongCommonSequence.swift */,
+				A08684BE29487832001D07AC /* Extension.swift */,
+				0880D4132E03C24E005E1BEF /* 动态规划.swift */,
+			);
+			path = LanguageImple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +147,23 @@
 			productReference = A04FF61D2900EBA8006C57ED /* libSwiftLanguageImple.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		A04FF62C2900EFE2006C57ED /* LanguageImple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04FF6312900EFE3006C57ED /* Build configuration list for PBXNativeTarget "LanguageImple" */;
+			buildPhases = (
+				A04FF6292900EFE2006C57ED /* Sources */,
+				A04FF62A2900EFE2006C57ED /* Frameworks */,
+				A04FF62B2900EFE2006C57ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageImple;
+			productName = LanguageImple;
+			productReference = A04FF62D2900EFE2006C57ED /* LanguageImple */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +175,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					A04FF61C2900EBA8006C57ED = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					A04FF62C2900EFE2006C57ED = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -111,6 +196,7 @@
 			projectRoot = "";
 			targets = (
 				A04FF61C2900EBA8006C57ED /* SwiftLanguageImple */,
+				A04FF62C2900EFE2006C57ED /* LanguageImple */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +206,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04FF6282900EF7C006C57ED /* main.swift in Sources */,
 				A04FF6212900EBA8006C57ED /* SwiftLanguageImple.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04FF6292900EFE2006C57ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0880D4142E03C24E005E1BEF /* 动态规划.swift in Sources */,
+				0880D4122E03BD31005E1BEF /* 递归.swift in Sources */,
+				A0ED65422918E76F00B737C1 /* Brute-Fore-String-Searching.swift in Sources */,
+				A02EA626290BDB540091735A /* UnionFind.swift in Sources */,
+				A0ED65442918F45A00B737C1 /* Boyer-Moore.swift in Sources */,
+				A04FF6352900F030006C57ED /* MyKthLargest.swift in Sources */,
+				A08684BF29487832001D07AC /* Extension.swift in Sources */,
+				A08684BD29486CC1001D07AC /* LongCommonSequence.swift in Sources */,
+				A08684BB2946FE46001D07AC /* RabinKarp.swift in Sources */,
+				A04FF6372900F719006C57ED /* SelectionSamples.swift in Sources */,
+				A0ABC4CB292DC584001B6DE2 /* KMPStringSearch.swift in Sources */,
+				A04FF6302900EFE3006C57ED /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +373,34 @@
 			};
 			name = Release;
 		};
+		A04FF6322900EFE3006C57ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A04FF6332900EFE3006C57ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HUW3H8NBU9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +418,15 @@
 			buildConfigurations = (
 				A04FF6252900EBA8006C57ED /* Debug */,
 				A04FF6262900EBA8006C57ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04FF6312900EFE3006C57ED /* Build configuration list for PBXNativeTarget "LanguageImple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04FF6322900EFE3006C57ED /* Debug */,
+				A04FF6332900EFE3006C57ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
