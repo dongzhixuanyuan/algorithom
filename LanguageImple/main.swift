@@ -27,6 +27,7 @@ recursion.test()
 // 动态规划
 let dynamicProgramming = DynamicProgramming()
 dynamicProgramming.test()
+dynamicProgramming.test2()
 
 let s = "kthSmallestResult = myKthLargest.findKthSmallest"
 let pattern = "myKthLargest"
